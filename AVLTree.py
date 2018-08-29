@@ -74,7 +74,7 @@ class Avltree(object):
 
         balance = self.calcbalance(node)
 
-        if balance > 1 and self.calcbalance(node.leftchild.data) >= 0:
+        if balance > 1 and self.calcbalance(node.leftchild) >= 0:
             return self.rotateright(node)
 
         if balance > 1 and self.calcbalance(node.leftchild) < 0:
