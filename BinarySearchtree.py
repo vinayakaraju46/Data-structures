@@ -61,7 +61,7 @@ class binarytree(object):
 
     def getPredeccor(self, node):
         if node.rightchild:
-            return self.getPredeccor(node.leftchild)
+            return self.getPredeccor(node.rightchild)
         return node
 
     def traverse(self):
