@@ -5,4 +5,4 @@ Hence the operations like insertion and deletion will have O(n) time complexity.
 In Avl tree, after every insertion it is checked whether the tree is balanced or not with the help of a height of a tree.
 Based on it the tree is rotated left or right.
 
-In 
+In AVLtree.py , the function SettleViolation() will help to balance a tree after the insertion of every elements. 
