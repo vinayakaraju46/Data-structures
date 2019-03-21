@@ -6,3 +6,4 @@ In Avl tree, after every insertion it is checked whether the tree is balanced or
 Based on it the tree is rotated left or right.
 
 In AVLtree.py , the function SettleViolation() will help to balance a tree after the insertion of every element. 
+Now the Time Complexity of a Balanced Tree will be O(nlog(n)).
