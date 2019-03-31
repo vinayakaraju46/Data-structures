@@ -9,7 +9,7 @@ class Avltree(object):
     def __init__(self):
         self.root = None
 
-    def calcheight(self, node):
+    def calcheight(self, node):  #To calculate the Height of the tree.
         if not node:
             return -1
         return node.height
@@ -155,14 +155,12 @@ class Avltree(object):
             self.traverseinorder(node.rightchild)
 
 avl = Avltree()
-avl.insert1(12)
-avl.insert1(2)
-avl.insert1(1)
-avl.insert1(3)
-avl.insert1(54)
-avl.traverse()
-
-avl.remove1(12)
+N = int(input("Enter the number of elements in a treee...\n))
+for i in range(N):               
+    avl.insert(int(input())     # Inputs the values from here.
+               
+avl.traverse()               
+avl.remove1(int(input())
 
 avl.traverse()
             
